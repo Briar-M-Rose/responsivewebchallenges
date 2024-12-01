@@ -1,0 +1,53 @@
+/* Basic Styling */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+/* Container Styles */
+  .main{
+    width: 100%;
+  }
+
+  .intro{
+    padding: 5.5rem;
+  }
+
+  .sect{
+    background: #09313F;
+    color: white;
+  }
+
+/* Heading Styles */
+  .heading{
+    font-size: 2.5rem;
+    margin-block: 20px;
+    max-width: 500px;
+  }
+  .subtext{
+    max-width: 400px;
+    margin-bottom: 3rem;
+  }
+
+/* Button Styles */
+  .button{
+    font-size: 1rem;
+    background-color: darkcyan;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    max-width: fit-content;
+    transition: all 1s;
+  }
+  .button:hover{
+    background-color: aquamarine;
+    transition: all 1s;
+  }
+
+  .link{
+    color: #09313F;
+    text-decoration: none;
+  }
